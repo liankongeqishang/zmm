@@ -21,6 +21,8 @@ void Delete(struct _list *list, int pos);
 void Insert(struct _list *list, int pos, int data);
 
 
+
+
 void Insert_tail(struct _list *list, int data)
 {
 	struct _node *node = (struct _node *)malloc(sizeof(struct _node));
